@@ -1,0 +1,7 @@
+slack:
+  delete_file:
+    days_to_delete: 365
+    file_types:
+      - images
+  token:
+    ssm_param_name: slack_old_file_cleaner_token
